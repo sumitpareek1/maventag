@@ -21,6 +21,9 @@ public class BarApp {
 
     @GetMapping("bar")
     BarDto bar() {
+
+        System.out
+                .println("his");
         return new BarDto(UUID.randomUUID().toString());
     }
 
